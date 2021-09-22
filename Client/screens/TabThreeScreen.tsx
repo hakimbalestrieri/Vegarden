@@ -19,11 +19,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    marginVertical:30
+    marginVertical: 0,
+    paddingTop:20
     //justifyContent: 'space-around',
   },
   title: {
-    textAlignVertical:0,
+    //textAlignVertical:0,
     marginVertical:0,
     fontSize: 20,
     fontWeight: 'bold',
@@ -35,8 +36,8 @@ const styles = StyleSheet.create({
   },
   logo: {
     backgroundColor: "#FFFFFF",
-    width: 500,
-    height: 500,
+    width: '50%',
+    height: '30%',
     marginVertical:50
   },
 });
